@@ -1,0 +1,10 @@
+#fondo {
+    background-color: rgb(18, 34, 50);
+    width: 970px;
+    height: 970px;
+}
+
+#rectangulo {
+    background-color: darkred;
+    color: dimgray;
+}
