@@ -1,34 +1,50 @@
-#fondo {
-    background-color: rgb(18, 34, 50);
-    width: 970px;
-    height: 750px;
-}
-
-#rectangulo {
-    background-color: rgb(184, 37, 37);
-    width: 960px;
-    height: 130px;
-    color: dimgray;
-    border-radius: 15px;
-    position: fixed;
-}
-
-#aside {
-    background-color: dodgerblue;
-    color: white;
-    display: inline-block;
-    width: 250px;
-    height: 250px;
-    margin-right: 15px;
-    border-radius: 15px;
-}
-
-#main {
-    background-color: green;
-    color: white;
-    display: inline-block;
-    width: 690px;
-    height: 450px;
-    margin-top: 80px;
-    border-radius: 15px;
-}
+        #fondo {
+            background-color: rgb(18, 34, 50);
+            width: 970px;
+            height: auto;
+            padding: 10px;
+            margin: 10%;
+        }
+        
+        #rectangulo {
+            background-color: rgb(173, 20, 20);
+            width: 960px;
+            height: 100px;
+            color: dimgray;
+            margin-bottom: 15px;
+            display: inline-block;
+            border-radius: 15px;
+        }
+        
+        #aside {
+            background-color: dodgerblue;
+            color: white;
+            display: inline-block;
+            width: 250px;
+            height: 250px;
+            margin-right: 10px;
+            vertical-align: top;
+            display: inline-block;
+            border-radius: 15px;
+        }
+        
+        #main {
+            background-color: chartreuse;
+            color: white;
+            display: inline-block;
+            width: 690px;
+            height: auto;
+            border-radius: 15px;
+            text-align: left;
+        }
+        
+        #footer {
+            background-color: blueviolet;
+            color: cornsilk;
+            border-radius: 15px;
+        }
+        
+        .sub {
+            color: rgb(18, 34, 50);
+            text-decoration: underline;
+        }

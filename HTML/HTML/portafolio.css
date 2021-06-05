@@ -1,0 +1,134 @@
+#portrafolio {
+    background-color: rgb(229, 230, 231);
+    width: 1000px;
+    height: auto;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10x;
+}
+
+#portafolio1 {
+    margin-right: 500px;
+    font-family: comic neue;
+}
+
+#portafolio2,
+h3 {
+    margin left: 500px;
+}
+
+h1,
+h3 {
+    colo r: black;
+    marg in-left: 20px;
+    display: inline-block;
+    margin: inherit 10px;
+}
+
+h2 {
+    colo r: whitesmoke;
+    back ground: linear-gradient(rgb(138, 138, 138), rgb(51, 51, 51), rgb(138, 138, 138));
+    /* b ackground-color: grey; */
+    padd ing-left: 12px;
+    line -height: 200%;
+    text-align: left;
+    margin-top: 0;
+}
+
+.par rafitos {
+    width: auto;
+    heig ht: 180px;
+}
+
+#maincontent {
+    back ground: radial-gradient( rgb(143, 86, 143), rgb(47, 26, 49));
+    /* margin: 10px; */
+    padding: 10px;
+    disp lay: inline-block;
+    vert ical-align: top;
+}
+
+.retrato {
+    widt h: 45%;
+    heig ht: auto;
+    border-width: 3px;
+    margin: 10px;
+    bord er-style: solid;
+    colo r: mintcream;
+    disp lay: inline-block;
+}
+
+#con tenedorTop {
+    align-content: top;
+    widt h: 48%;
+    height: 295px;
+    marg in: 10px;
+    vertical-align: top;
+}
+
+#contene dor2 {
+    disp lay: inline-block;
+    alig n-content: top;
+    vert ical-align: top;
+}
+
+.subcaja s {
+    disp lay: inline-block;
+    widt h: 30%;
+    height: auto;
+    background: linear-gradient(to right, white, rgb(213, 189, 252));
+    marg in: 10px;
+    padd ing: 0px;
+    text -align: justify;
+    vertical-align: top;
+    font -family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    padd ing-left: 14px;
+    padd ing-right: 14px;
+    font-family: Helvetica, sans-serif;
+    font -weight: lighter;
+    font -size: 15px;
+}
+
+.rec ortes {
+    width: 100%;
+    padd ing: none;
+    marg in: none;
+}
+
+.logos {
+    widt h: 40px;
+    margin: 5px;
+    disp lay: inline-block;
+    padd ing: 0px;
+}
+
+.tin yfooter {
+    display: center;
+    text -align: center;
+}
+
+.button {
+    border-radius: 7px;
+    margin-bottom: 20px;
+    back ground-color: #1d701f;
+    colo r: white;
+    box- shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+    padd ing: 5px;
+    text-align: center;
+}
+
+.data {
+    text-align: center;
+    margin-top: 5px;
+    padding: 0px, 5px;
+}
+
+.iconosFoot {
+    width: 20px;
+    margin-right: 5px;
+    margin-top: 5px;
+    line-height: 0px;
+}
