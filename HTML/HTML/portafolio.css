@@ -1,129 +1,143 @@
-#portrafolio {
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#caja1 {
     background-color: rgb(229, 230, 231);
     width: 1000px;
     height: auto;
     margin: 0px;
     padding-top: 10px;
-    padding-bottom: 10x;
+    padding-bottom: 10px;
 }
 
-#portafolio1 {
+h1 {
     margin-right: 500px;
     font-family: comic neue;
 }
 
-#portafolio2,
 h3 {
-    margin left: 500px;
+    margin-left: 500px;
 }
 
 h1,
 h3 {
-    colo r: black;
-    marg in-left: 20px;
+    color: black;
+    margin-left: 20px;
     display: inline-block;
     margin: inherit 10px;
 }
 
 h2 {
-    colo r: whitesmoke;
-    back ground: linear-gradient(rgb(138, 138, 138), rgb(51, 51, 51), rgb(138, 138, 138));
-    /* b ackground-color: grey; */
-    padd ing-left: 12px;
-    line -height: 200%;
+    color: whitesmoke;
+    background: linear-gradient(rgb(138, 138, 138), rgb(51, 51, 51), rgb(138, 138, 138));
+    padding-left: 12px;
+    line-height: 200%;
     text-align: left;
     margin-top: 0;
 }
 
-.par rafitos {
-    width: auto;
-    heig ht: 180px;
+.centrado {
+    text-align: center;
 }
 
-#maincontent {
-    back ground: radial-gradient( rgb(143, 86, 143), rgb(47, 26, 49));
-    /* margin: 10px; */
+.parrafos {
+    min-height: 180px;
+}
+
+#caja2 {
+    background: radial-gradient( rgb(143, 86, 143), rgb(47, 26, 49));
     padding: 10px;
-    disp lay: inline-block;
-    vert ical-align: top;
+    display: inline-block;
+    vertical-align: top;
 }
 
-.retrato {
-    widt h: 45%;
-    heig ht: auto;
+.foto {
+    width: 450px;
+    height: auto;
     border-width: 3px;
     margin: 10px;
-    bord er-style: solid;
-    colo r: mintcream;
-    disp lay: inline-block;
+    border-style: solid;
+    color: mintcream;
+    display: inline-block;
 }
 
-#con tenedorTop {
+#contenedor1er {
     align-content: top;
-    widt h: 48%;
+    width: 450px;
     height: 295px;
-    marg in: 10px;
+    margin: 10px;
     vertical-align: top;
 }
 
-#contene dor2 {
-    disp lay: inline-block;
-    alig n-content: top;
-    vert ical-align: top;
+#contenedor2do {
+    display: inline-block;
+    align-content: top;
+    vertical-align: top;
 }
 
-.subcaja s {
-    disp lay: inline-block;
-    widt h: 30%;
+.cajas {
+    display: inline-block;
+    width: 30%;
     height: auto;
     background: linear-gradient(to right, white, rgb(213, 189, 252));
-    marg in: 10px;
-    padd ing: 0px;
-    text -align: justify;
+    margin: 10px;
+    padding: 0px;
+    text-align: justify;
     vertical-align: top;
-    font -family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
-    padd ing-left: 14px;
-    padd ing-right: 14px;
+    padding-left: 14px;
+    padding-right: 14px;
     font-family: Helvetica, sans-serif;
-    font -weight: lighter;
-    font -size: 15px;
+    font-weight: lighter;
+    font-size: 15px;
 }
 
-.rec ortes {
+.recorte {
     width: 100%;
-    padd ing: none;
-    marg in: none;
+    padding: none;
+    margin: none;
 }
 
 .logos {
-    widt h: 40px;
+    width: 40px;
     margin: 5px;
-    disp lay: inline-block;
-    padd ing: 0px;
+    display: inline-block;
+    padding: 0px;
 }
 
-.tin yfooter {
+.footer {
     display: center;
-    text -align: center;
+    text-align: center;
 }
 
 .button {
     border-radius: 7px;
     margin-bottom: 20px;
-    back ground-color: #1d701f;
-    colo r: white;
-    box- shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
-    padd ing: 5px;
+    background-color: #1d701f;
+    color: white;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+    padding: 5px;
     text-align: center;
 }
 
-.data {
+.footer {
     text-align: center;
     margin-top: 5px;
     padding: 0px, 5px;
+    border-radius: 10px;
+}
+
+.iconosFoot1 {
+    width: 20px;
+    margin-right: 5px;
+    margin-top: 5px;
+    line-height: 0px;
+    border-radius: 20px;
 }
 
 .iconosFoot {
